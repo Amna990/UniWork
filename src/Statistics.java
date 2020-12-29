@@ -24,7 +24,7 @@ public class Statistics extends javax.swing.JFrame {
      * Creates new form Statistics
      */
     public Statistics() {
-        
+       super("Statistics");
         initComponents();
         conn=javaconnect.ConnectDb();
         jTable1();
